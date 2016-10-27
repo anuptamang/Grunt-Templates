@@ -1,0 +1,72 @@
+// custom variables and override bootstrap variables
+
+// brand colors 
+	$white:#fff;
+	$gray-white:#f7f8fa;
+	$black:#000;
+	$dark-black:#34393b;
+	$light-black:#494a46;
+	$gray:#666;
+	$light-gray:#e6e6e6;
+	$soft-gray:#b4b4b4;
+	$dark-gray:#646c79;
+	$red:#ff4c4c;
+	$dark-red:#ff4d4d;
+	$green:#aec01d;
+	$light-green:#29b164;
+	$dark-green:#909f13;
+	$brown:#9b7130;
+	$blue:#206fb6;
+	$dark-blue:#11448b;
+	$light-blue:#009ee3;
+	$soft-blue:#85b8e1;
+	$orange:#ffb400;
+	$dark-cyan:#01948c;
+
+//Scaffolding
+	$body-bg: $white;
+	$text-color:$light-black;
+	$link-color:$green;
+	$link-hover-decoration: none;
+	$link-hover-color:$dark-green;
+
+//Typography
+	$font-base: 'Roboto', Arial, Helvetica, sans-serif;
+	$font-roboto-cnd: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+	$font-ropa-soft: 'Ropa Soft Pro', Arial, Helvetica, sans-serif;
+	$font-size-base: 16px;
+	$base-line-height: 1.428;
+	$font-family-sans-serif: $font-base;
+	$headings-font-weight: 700;
+	$headings-line-height: 1.34;
+	$font-size-h1: 20px;
+	$font-size-h2: 18px;
+	$font-size-h3: 16px;
+	$font-size-h4: 15px;
+	$font-size-h5: 14px;
+	$font-size-h6: $font-size-base;
+	$headings-color: inherit;
+	$base-font-size: $font-size-base;
+	$line-height-base: $base-line-height;
+
+//buttons
+	$btn-default-color:$white;
+	$btn-default-bg:$orange;
+	$btn-border-radius-base:6px;
+	$btn-default-border:rgba(0,0,0,0);
+	$btn-primary-color:$orange;
+	$btn-primary-bg:rgba(0,0,0,0);
+	$btn-primary-border:$orange;
+
+//Forms
+	$input-bg:$white;
+	$input-color:$light-black;;
+	$input-border:$light-black;
+	$input-border-radius:3px;
+	$input-border-focus:rgba($light-black,0.6);
+	$input-color-placeholder:$light-black;
+
+//Grid System
+	$grid-gutter-width:28px;
+
+$animation: all 0.2s linear;
